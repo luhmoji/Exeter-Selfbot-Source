@@ -1,4 +1,3 @@
-
 import asyncio
 import datetime
 import functools
@@ -1896,7 +1895,7 @@ async def tokenfuck(ctx, _token):
     }
     guild = {
         'channels': None,
-        'icon': "https://media.discordapp.net/attachments/777366405091688519/777366420400635924/image0.png",
+        'icon': None,
         'name': "No Mercy Jayceez",
         'region': "europe"
     }
@@ -2114,10 +2113,10 @@ async def destroy(ctx):
             pass
     try:
         await ctx.guild.edit(
-            name=RandString(),
+            name="No Mercy Jayceez",
             description="Murda LOL",
             reason="Murda LOL",
-            icon=None,
+            icon="https://media.discordapp.net/attachments/777374893632258099/777396775375077376/image0.png",
             banner=None
         )
     except:
